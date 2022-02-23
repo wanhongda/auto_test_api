@@ -10,7 +10,13 @@ import os
 import requests
 from assertpy import assert_that
 import allure
+import sys
+sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
 from utils import *
+
+
+
+# from utils import *
 
 
 # from utils import yaml_control
