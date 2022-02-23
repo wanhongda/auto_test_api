@@ -38,6 +38,7 @@ class Test_study:
     @allure.description("尝试用allure生成美观的测试报告")
     @pytest.mark.parametrize("url,params,status", data)
     def test_run_simple(self, url, params, status):
+        #加个判断 判断是否有数组、字典
         # 预处理用例信息
         print("--------------url-----------------", url)
         print("--------------params-----------------", params)
@@ -68,3 +69,4 @@ if __name__ == '__main__':
     print(reportName)
     os.system("allure generate {}/reports/result/ -o {}/reports/report/ --clean".format(reportName, reportName))
     os.system("allure open -h 127.0.0.1 -p 8883 {}/reports/report/".format(reportName))
+    print("***执行完成，输出报告***")
