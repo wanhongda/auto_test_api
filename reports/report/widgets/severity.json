@@ -1,21 +1,21 @@
 [ {
-  "uid" : "af6ed6e7e18d3aea",
+  "uid" : "c8f34edb4b3dcb20",
   "name" : "测试用例001",
   "time" : {
-    "start" : 1645516460671,
-    "stop" : 1645516460671,
+    "start" : 1645616768766,
+    "stop" : 1645616768938,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91686b17de2d48fb",
+  "name" : "测试用例001",
+  "time" : {
+    "start" : 1645616768944,
+    "stop" : 1645616768944,
     "duration" : 0
   },
   "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "fa30b710e14fa6d",
-  "name" : "测试用例001",
-  "time" : {
-    "start" : 1645516460479,
-    "stop" : 1645516460665,
-    "duration" : 186
-  },
-  "status" : "passed",
   "severity" : "normal"
 } ]

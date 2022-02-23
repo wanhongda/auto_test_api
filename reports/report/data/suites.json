@@ -9,13 +9,13 @@
         "name" : "Test_study",
         "children" : [ {
           "name" : "测试用例001",
-          "uid" : "fa30b710e14fa6d",
+          "uid" : "c8f34edb4b3dcb20",
           "parentUid" : "dee743f7d3765b4490174f94934f031b",
           "status" : "passed",
           "time" : {
-            "start" : 1645516460479,
-            "stop" : 1645516460665,
-            "duration" : 186
+            "start" : 1645616768766,
+            "stop" : 1645616768938,
+            "duration" : 172
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,12 +26,12 @@
           "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
         }, {
           "name" : "测试用例001",
-          "uid" : "af6ed6e7e18d3aea",
+          "uid" : "91686b17de2d48fb",
           "parentUid" : "dee743f7d3765b4490174f94934f031b",
           "status" : "broken",
           "time" : {
-            "start" : 1645516460671,
-            "stop" : 1645516460671,
+            "start" : 1645616768944,
+            "stop" : 1645616768944,
             "duration" : 0
           },
           "flaky" : false,

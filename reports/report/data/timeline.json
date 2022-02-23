@@ -4,32 +4,15 @@
   "children" : [ {
     "name" : "SYDZSB1034",
     "children" : [ {
-      "name" : "17712-MainThread",
+      "name" : "22484-MainThread",
       "children" : [ {
         "name" : "测试用例001",
-        "uid" : "fa30b710e14fa6d",
-        "parentUid" : "0178a57c0067805990eeec6f8252ae4f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1645516460479,
-          "stop" : 1645516460665,
-          "duration" : 186
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
-      }, {
-        "name" : "测试用例001",
-        "uid" : "af6ed6e7e18d3aea",
-        "parentUid" : "0178a57c0067805990eeec6f8252ae4f",
+        "uid" : "91686b17de2d48fb",
+        "parentUid" : "b88da2f94d2887f468895700c9028e19",
         "status" : "broken",
         "time" : {
-          "start" : 1645516460671,
-          "stop" : 1645516460671,
+          "start" : 1645616768944,
+          "stop" : 1645616768944,
           "duration" : 0
         },
         "flaky" : false,
@@ -39,8 +22,25 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      }, {
+        "name" : "测试用例001",
+        "uid" : "c8f34edb4b3dcb20",
+        "parentUid" : "b88da2f94d2887f468895700c9028e19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645616768766,
+          "stop" : 1645616768938,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
       } ],
-      "uid" : "0178a57c0067805990eeec6f8252ae4f"
+      "uid" : "b88da2f94d2887f468895700c9028e19"
     } ],
     "uid" : "2a939c823a4a887801caae2b3e7da164"
   } ]

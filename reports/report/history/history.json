@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa30b710e14fa6d",
+      "uid" : "c8f34edb4b3dcb20",
       "status" : "passed",
       "time" : {
-        "start" : 1645516460479,
-        "stop" : 1645516460665,
-        "duration" : 186
+        "start" : 1645616768766,
+        "stop" : 1645616768938,
+        "duration" : 172
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "af6ed6e7e18d3aea",
+      "uid" : "91686b17de2d48fb",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'list' object has no attribute 'to_bytes'",
       "time" : {
-        "start" : 1645516460671,
-        "stop" : 1645516460671,
+        "start" : 1645616768944,
+        "stop" : 1645616768944,
         "duration" : 0
       }
     } ]
