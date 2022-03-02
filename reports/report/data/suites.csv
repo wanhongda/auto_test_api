@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 02 20:49:14 CST 2022","Wed Mar 02 20:49:14 CST 2022","179","testcases.home_project","test002_try_test_api","Test_study","","","测试用例001","尝试用allure生成美观的测试报告"
+"broken","Wed Mar 02 20:49:14 CST 2022","Wed Mar 02 20:49:14 CST 2022","0","testcases.home_project","test002_try_test_api","Test_study","","","测试用例001","尝试用allure生成美观的测试报告"

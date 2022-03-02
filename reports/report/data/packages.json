@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.home_project.test002_try_test_api",
+    "children" : [ {
+      "name" : "测试用例001",
+      "uid" : "a08e8cdc098a3915",
+      "parentUid" : "54d3399d962698fad88bd91af2724380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646225354045,
+        "stop" : 1646225354224,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+    }, {
+      "name" : "测试用例001",
+      "uid" : "2efcb3a81464f874",
+      "parentUid" : "54d3399d962698fad88bd91af2724380",
+      "status" : "broken",
+      "time" : {
+        "start" : 1646225354230,
+        "stop" : 1646225354230,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+    } ],
+    "uid" : "testcases.home_project.test002_try_test_api"
+  } ]
+}

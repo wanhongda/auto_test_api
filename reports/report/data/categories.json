@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'list' object has no attribute 'to_bytes'",
+      "children" : [ {
+        "name" : "测试用例001",
+        "uid" : "2efcb3a81464f874",
+        "parentUid" : "bccd61f26bb28fca9c5b9677d406a7e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646225354230,
+          "stop" : 1646225354230,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      } ],
+      "uid" : "bccd61f26bb28fca9c5b9677d406a7e5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

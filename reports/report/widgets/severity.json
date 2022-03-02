@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2efcb3a81464f874",
+  "name" : "测试用例001",
+  "time" : {
+    "start" : 1646225354230,
+    "stop" : 1646225354230,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a08e8cdc098a3915",
+  "name" : "测试用例001",
+  "time" : {
+    "start" : 1646225354045,
+    "stop" : 1646225354224,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

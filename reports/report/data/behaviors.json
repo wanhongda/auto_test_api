@@ -1,0 +1,47 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Tongits Star登录接口",
+    "children" : [ {
+      "name" : "测试用例",
+      "children" : [ {
+        "name" : "测试用例001",
+        "uid" : "a08e8cdc098a3915",
+        "parentUid" : "c7af29b8b648ccde0d42b4a3cd167cd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646225354045,
+          "stop" : 1646225354224,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      }, {
+        "name" : "测试用例001",
+        "uid" : "2efcb3a81464f874",
+        "parentUid" : "c7af29b8b648ccde0d42b4a3cd167cd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646225354230,
+          "stop" : 1646225354230,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      } ],
+      "uid" : "c7af29b8b648ccde0d42b4a3cd167cd1"
+    } ],
+    "uid" : "d8f347c8b263d67056484406c6231449"
+  } ]
+}

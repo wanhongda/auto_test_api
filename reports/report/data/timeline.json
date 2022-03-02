@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SYDZSB1034",
+    "children" : [ {
+      "name" : "16176-MainThread",
+      "children" : [ {
+        "name" : "测试用例001",
+        "uid" : "2efcb3a81464f874",
+        "parentUid" : "70e451e08be9ad2adec9a3963be68941",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646225354230,
+          "stop" : 1646225354230,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      }, {
+        "name" : "测试用例001",
+        "uid" : "a08e8cdc098a3915",
+        "parentUid" : "70e451e08be9ad2adec9a3963be68941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646225354045,
+          "stop" : 1646225354224,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+      } ],
+      "uid" : "70e451e08be9ad2adec9a3963be68941"
+    } ],
+    "uid" : "2a939c823a4a887801caae2b3e7da164"
+  } ]
+}

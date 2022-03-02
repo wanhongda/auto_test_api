@@ -1,0 +1,41 @@
+{
+  "e9ed7d6e3f7c93ce97a84f54e01c8292" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a08e8cdc098a3915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646225354045,
+        "stop" : 1646225354224,
+        "duration" : 179
+      }
+    } ]
+  },
+  "4ca1f219c6baa89c989c37e43027a134" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2efcb3a81464f874",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'list' object has no attribute 'to_bytes'",
+      "time" : {
+        "start" : 1646225354230,
+        "stop" : 1646225354230,
+        "duration" : 0
+      }
+    } ]
+  }
+}

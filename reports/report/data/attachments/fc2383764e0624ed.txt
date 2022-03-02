@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): itest.tongitsstar.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://itest.tongitsstar.com:443 "GET /data/handleMsg.do?v=MzNmZDNhOTk4MTA1YjY5ZGEyYTE4NzhiNjYxNzlhNjYJIAAAymcfYnJhbmRvbV9tYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAsK0BADEuMDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%0A HTTP/1.1" 200 None

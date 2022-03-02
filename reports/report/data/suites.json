@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.home_project",
+    "children" : [ {
+      "name" : "test002_try_test_api",
+      "children" : [ {
+        "name" : "Test_study",
+        "children" : [ {
+          "name" : "测试用例001",
+          "uid" : "a08e8cdc098a3915",
+          "parentUid" : "dee743f7d3765b4490174f94934f031b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646225354045,
+            "stop" : 1646225354224,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "8201", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+        }, {
+          "name" : "测试用例001",
+          "uid" : "2efcb3a81464f874",
+          "parentUid" : "dee743f7d3765b4490174f94934f031b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1646225354230,
+            "stop" : 1646225354230,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "[4097, 0, '', 'auth_register_test']", "0", "'https://itest.tongitsstar.com/data/handleMsg.do'" ]
+        } ],
+        "uid" : "dee743f7d3765b4490174f94934f031b"
+      } ],
+      "uid" : "bbedc7290a51a7453d4186153c273979"
+    } ],
+    "uid" : "d318ee8d24a9c734cfd3977ff2f7ffb7"
+  } ]
+}
