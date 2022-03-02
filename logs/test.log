@@ -1,0 +1,2 @@
+2022-03-02-20-49-14 - connectionpool.py - connectionpool - _new_conn - 971 - DEBUG - Starting new HTTPS connection (1): itest.tongitsstar.com:443
+2022-03-02-20-49-14 - connectionpool.py - connectionpool - _make_request - 452 - DEBUG - https://itest.tongitsstar.com:443 "GET /data/handleMsg.do?v=MzNmZDNhOTk4MTA1YjY5ZGEyYTE4NzhiNjYxNzlhNjYJIAAAymcfYnJhbmRvbV9tYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAsK0BADEuMDUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%0A HTTP/1.1" 200 None

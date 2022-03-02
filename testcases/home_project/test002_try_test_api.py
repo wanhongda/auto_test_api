@@ -10,10 +10,11 @@ import os
 import requests
 from assertpy import assert_that
 import allure
-import sys
-sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
-from utils import *
+# import sys
+# sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
+# sys.path.append(r"C:\ProgramData\Jenkins\.jenkins\workspace\tongits_star_auto_test_api")
 
+from utils import *
 
 
 # from utils import *
@@ -44,7 +45,7 @@ class Test_study:
     @allure.description("尝试用allure生成美观的测试报告")
     @pytest.mark.parametrize("url,params,status", data)
     def test_run_simple(self, url, params, status):
-        #加个判断 判断是否有数组、字典
+        # 加个判断 判断是否有数组、字典
         # 预处理用例信息
         print("--------------url-----------------", url)
         print("--------------params-----------------", params)
@@ -70,9 +71,19 @@ if __name__ == '__main__':
     # print(os.path.abspath(__file__))
     # print(os.path.dirname((os.path.dirname(os.path.dirname(__file__)))))
     reportName = os.path.dirname((os.path.dirname(os.path.dirname(__file__))))
+    # report目录，需要再此目录下打开powershell，输入anywhere，转发报告内容
+    ps_location = '{}\\reports\\report'.format(reportName)
+    # print(ps_location)
     pytest.main(["test002_try_test_api.py", "-s", '--alluredir', '{}/reports/result/'.format(reportName),
                  '--clean-alluredir'])  #
-    print(reportName)
+    # print(reportName)
     os.system("allure generate {}/reports/result/ -o {}/reports/report/ --clean".format(reportName, reportName))
-    os.system("allure open -h 127.0.0.1 -p 8883 {}/reports/report/".format(reportName))
+    # 运行完后自动打开报告 与anywhere自动打开报告冲突
+    # os.system("allure open -h 127.0.0.1 -p 8883 {}/reports/report/".format(reportName))
     print("***执行完成，输出报告***")
+    # 切换到指定路径下
+    os.chdir(ps_location)
+    print(ps_location)
+    # 执行完成，自动打开报告，以本机作为服务端，可直接发送   本机ip地址:8000  指定链接供别人查看报告，使用此命令前提是装好node.js
+    os.system("anywhere")
+    print("服务启动，可在局域网内查看allure报告...")
